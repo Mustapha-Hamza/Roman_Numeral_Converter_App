@@ -9,10 +9,6 @@ function clearInput() {
 };
 
 
- 
-
-
-
 let goButton = myButton.addEventListener("click", function() {
     
     //Assign varaiable to input field Value
@@ -84,17 +80,5 @@ let goButton = myButton.addEventListener("click", function() {
             return romans[index] + romans[index+2];
         }
     }
-    //let finalAnswer = convertToRoman(inputNumber);
-    //console.log(convertToRoman(inputNumber)); 
-    //console.log(inputNumber)
-    //getAnswer.textContent =  inputValue.value;
-    //getAnswer.textContent = finalAnswer;
+    
  }); 
-
-/*JavaScript Algorithms and Data Structures Projects: Roman Numeral Converter
-
-Convert the given number into a roman numeral.
-
-All roman numerals answers should be provided in upper-case.
-
-Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.*/
